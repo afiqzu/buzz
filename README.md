@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# Buzz - Social Media Web Application
+<img width="1082" alt="Screenshot 2023-12-12 at 9 45 12 PM" src="https://github.com/afiqzu/buzz/assets/93078202/d147b60c-14e2-4523-b141-524b322b3946">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Buzz is a dynamic social media web application that connects users in a vibrant online community. This project was built by following a comprehensive tutorial available on [YouTube](https://www.youtube.com/watch?v=_W3R2VwRyF4&list=LL&index=4&t=19459s) by JSM. Using technologies like Appwrite, React, TypeScript, Tailwind CSS, and Shadcn, Buzz offers a seamless and engaging user experience.
 
-Currently, two official plugins are available:
+## Features
+- **Account Creation & Authentication**: Secure sign-up and login process.
+- **Post Creation**: Users can create and share posts with the community.
+- **Exploration**: Browse and discover posts and other users on the platform.
+- **Account Management**: Personalize and manage account settings with ease.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Future Features
+- **Account Following**: Implement a feature allowing users to follow each other's accounts, thereby enhancing community interaction and content discovery.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Deployment
+The application is deployed on Vercel, ensuring fast and reliable access. You can visit the live site [here](https://buzzsm.vercel.app).
