@@ -51,6 +51,7 @@ const PostForm = ({ post, action }: PostFormProps) => {
   // 2. Define a submit handler.
   async function onSubmit(values: z.infer<typeof PostValidation>) {
     if (post && action === 'Update') {
+      // @ts-ignore
       const updatedPost = await updatePost({
         ...values,
         postId: post.$id,
@@ -63,6 +64,7 @@ const PostForm = ({ post, action }: PostFormProps) => {
       return navigate(`/posts/${post.$id}`)
     }
 
+    // @ts-ignore
     const newPost = await createPost({
       ...values,
       userId: user.user.id,

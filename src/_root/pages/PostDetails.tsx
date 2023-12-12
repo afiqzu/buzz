@@ -17,6 +17,7 @@ const PostDetails = () => {
   const { mutate: deletePost } = useDeletePost()
 
   const handleDeletePost = () => {
+    // @ts-ignore
     deletePost({ postId: id, imageId: post?.imageId })
     navigate(-1)
   }
