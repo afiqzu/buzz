@@ -1,10 +1,9 @@
-import { Models } from 'appwrite'
 import Loader from '@/components/shared/Loader.tsx'
 import GridPostList from '@/components/shared/GridPostList.tsx'
 
 type SearchResultsProps = {
   isSearchFetching: boolean
-  searchedPosts: Models.Document[]
+  searchedPosts: any
 }
 const SearchResults = ({
   isSearchFetching,
